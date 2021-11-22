@@ -1,0 +1,43 @@
+body{
+  background-color: #e9ecef;
+}
+#contact {
+    background-color: #212529;
+    height: 100px;
+  }
+  #contact nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  #contact nav ul li {
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    display: inline-block;
+    margin-top: 25px;
+    font-size: 50px;
+  }
+  #contact nav ul li a{
+    color: white;
+  }
+  #contact nav ul li:hover {
+    transition: all 0.2s ease-in-out;
+    transform: scale(1.4);
+  }
+  @media screen and (max-width: 414px){
+    #contact{
+      height: 70px;
+    }
+    #contact nav ul li{
+      font-size: 35px;
+      margin-left: -40px;
+    }
+    
+  }
+  @media screen and (max-width: 375px){
+    #contact nav ul li{
+      font-size: 35px;
+    }
+  }

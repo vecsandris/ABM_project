@@ -1,0 +1,59 @@
+#article{
+    background-color: #e9ecef;
+}
+.row{
+    padding: 1.5rem;
+    display: flex;
+    flex: 1 1 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+.column{
+    font-size: 1.5rem;
+    width: 40%;
+}
+.column img{
+    max-width: 100%;
+}
+img{
+    border: 1px solid transparent;
+    border-radius: 10px;
+}
+.kiscim{
+    color: #f87952;
+    font-size: 50px;
+    text-align: center;
+}
+#harmadik{ 
+    width: 100%;
+}
+
+@media screen and (min-width: 1100px){
+    .row{
+        flex-direction: row;
+    }
+}
+@media screen and (max-width: 414px){
+    .row p{
+        font-size: 20px;
+    }
+    .column{
+        width: 80%;
+    }
+    .kiscim{
+        font-size: 40px;
+    }
+}
+@media screen and (max-width: 375px){
+        .row p{
+            font-size: 20px;
+        }
+        .column{
+            width: 80%;
+        }
+        .kiscim{
+            font-size: 40px;
+        }
+}

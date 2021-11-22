@@ -1,0 +1,152 @@
+#header {
+    background-image: url("first-wallpaper.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+#logo {
+    height: 370px;
+    width: 400px;
+    position: absolute;
+    margin: -20px 0 0 20px;
+  }
+  /*cim effekt*/
+  #cim {
+    margin: 120px 0 0 450px;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    background: 50% 100% / 50% 50% no-repeat
+      radial-gradient(ellipse at bottom, #fff, transparent, transparent);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-family: "Source Sans Pro", sans-serif;
+    animation: reveal 3000ms ease-in-out forwards 200ms,
+      glow 2500ms linear infinite 2000ms;
+  }
+  @keyframes reveal {
+    80% {
+      letter-spacing: 8px;
+    }
+    100% {
+      background-size: 300% 300%;
+    }
+  }
+  @keyframes glow {
+    40% {
+      text-shadow: 0 0 8px #fff;
+    }
+  }
+  /*header es menu elhelyezese*/
+  #header p {
+    position: absolute;
+    padding: 20px;
+  }
+  #header #container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #header #container #menu {
+    list-style: none;
+    font-size: 55px;
+    margin: 0 0 0 -130px;
+  }
+  /*letekereskor felugro menu beallitasai*/
+  #menu.active {
+    position: fixed;
+    top: 30px;
+    height: 60px;
+    width: 70%;
+    background-color: #212529;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    opacity: 0.8;
+    padding: 0;
+    z-index: 10000;
+  }
+  #header > #container > #menu.active {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+  #header > #container > #menu.active > .box-wrap:hover .box {
+    filter: none;
+    transform: none;
+    opacity: 1;
+    cursor: pointer;
+  }
+  #header > #container > #menu.active > .box-wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0;
+    width: 100%;
+  }
+  #header > #container > #menu.active > .box-wrap > li {
+    /*felugro menuben szoveg elhelyezes*/
+    font-size: 10px;
+    padding: 0;
+    margin-left: -10px;
+  }
+  #header #container #menu .box-wrap li {
+    display: inline-block;
+  }
+  #header > #container > #menu.active > .box-wrap > li > .box{
+    font-size: 30px;
+  }
+  #header > #container > #menu.active > .box-wrap > li > .box > .underline::after {
+    /*felugro menu alahuzas effekt*/
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #fff;
+    transition: width 0.3s;
+  }
+  #header
+    > #container
+    > #menu.active
+    > .box-wrap
+    > li
+    > .box
+    > .underline:hover::after {
+    width: 100%;
+    transition: width 0.3s;
+  }
+  /*navigacios menu effekt*/
+  .box-wrap {
+    display: inline-block;
+    margin-left: 50px;
+  }
+  .box-wrap li {
+    margin-left: 40px;
+  }
+  .box {
+    margin: 2%;
+    background: transparent;
+    border-radius: 3px;
+    transition: 0.6s all;
+    cursor: pointer;
+    color:#fff;
+  }
+  .box-wrap:hover .box {
+    filter: blur(3px);
+    opacity: 0.5;
+    transform: scale(0.98);
+    box-shadow: none;
+  }
+  .box-wrap:hover .box:hover {
+    transform: scale(1);
+    filter: blur(0px);
+    opacity: 1;
+    box-shadow: 0 8px 20px 0px rgba(0, 0, 0, 0.125);
+  }
