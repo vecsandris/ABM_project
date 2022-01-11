@@ -83,7 +83,7 @@ export default class Article extends Component {
         </div>
         <div id="fotozas" className="row">
           <div className="column">
-            <h1 className="kiscim">Katt ide a fotókhoz!</h1>
+            <h1 className="kiscim"><a href = "https://instagram.com/vecsernyes.andras">Instagram!</a></h1>
             <p>
               A fotózás is az életem része, bár ennek sok időt nem szánok,
               illetve ironikusan hangozhat, de a képeim telefonnal vannak
