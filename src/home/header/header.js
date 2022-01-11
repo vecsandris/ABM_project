@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState} from "react";
 import { Link } from "react-scroll";
 import { animateScroll as scroll } from "react-scroll";
 import { VscMenu } from "react-icons/vsc";
@@ -9,7 +9,7 @@ import logo from "../../images/logo.jpg";
 export default function Header() {
   var x = true;
   const Rmenu = () =>{ 
-    if(x == true){
+    if(x === true){
       x = false;
       document.getElementById("menu").style.display = "block";
       document.getElementById("menu").style.marginTop = "150px";
@@ -32,17 +32,15 @@ export default function Header() {
   
   function reload(){
     var width = window.innerWidth;
-    if(width < 1100 || width > 1900 || width == 1875 || width == 375 || width == 411 || width == 540 || width == 1024 || width == 768){
+    if(width < 1100 || width > 1900 || width === 1875 || width === 375 || width === 411 || width === 540 || width === 1024 || width === 768){
         window.location.reload();
     }
   }
   window.addEventListener('resize', reload);
 
   return (
-    <div id="header">
-      <a href="#">
+    <div id="header"> 
         <img alt="logo" id="logo" src={logo} />
-      </a>
       <p id="cim">Vecsernyés András</p>
       <div id="container">
         <div id = "menu2">
