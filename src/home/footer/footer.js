@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { AiOutlineCopyrightCircle, AiOutlineInstagram,} from "react-icons/ai";
+import { AiOutlineInstagram } from "react-icons/ai";
 import { BsFacebook } from "react-icons/bs";
 import { HiOutlineMail } from "react-icons/hi";
 import "./footer.css";
@@ -19,9 +19,6 @@ export default class Footer extends Component {
                     </li>
                     <li>
                       <a href = "https://www.facebook.com/andras.vecsernyes" target = "_blank" rel = "noreferrer"><BsFacebook /></a>
-                    </li>
-                    <li>
-                        <a href= "/"><AiOutlineCopyrightCircle /></a>
                     </li>
                   </ul>
                 </nav>

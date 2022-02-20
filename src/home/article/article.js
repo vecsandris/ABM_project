@@ -38,17 +38,9 @@ export default class Article extends Component {
               Vecsernyés András vagyok, Budapesten születtem 2002-ben. Szeretek
               önállóan dolgozni, ellenben nem félek segitségek kérni.Kedves,
               türelmes és segitőkész vagyok, amit szorgalmam fűszerez meg.
-              Emellett szeretek mozogni, sportolni, kirándulni és a barátokkal
-              együtt töltött idő is nagyon fontos számomra.
-            </p>
-            <p>
-              Motivált vagyok új dolgokat megismerni, tanulni. Már az iskolában
-              is nagyon sokat foglalkoztam az önfejlesztéssel, hisz sosem voltam
-              megelégedve azzal, amit a tanárok akarnak átadni, hamar rajta
-              kaptam magam azon, hogy az édes kevés. Nagyon megtetszett a
-              webfejlesztés és elkezdtem vele foglalkozni, szerettem alkotni és
-              büszke voltam magamra, amikor megcsináltam az első épkézláb
-              weboldalam.
+              Jó a szervezőképességem és képes vagyok átlátni a nagyobb rendszereket,
+              azoknak működését.
+
             </p>
           </div>
           <div className="column">
@@ -62,22 +54,12 @@ export default class Article extends Component {
           <div className="column">
             <h1 className="kiscim">Hobbik</h1>
             <p>
-              Miután elkezdtem weboldalakat késziteni, ez egy mániává vált,
-              reggel suli előtt és mikor hazaértem, már a weboldalamon
-              dolgoztam. Szükségem is volt rá, mivel streamer karrierem
-              beinditásához(mely a másik hobbim volt), elengedhetetlen részét
-              képezte. A számitógép szerelés világa is leköt engem, szeretek
-              számitógépeket szétszedni, összerakni, de ezt nem teszem meg a
-              géppemmel a garancia miatt. Mindezek mellett a mozgás
-              elengedhetetlen része az életemnek. Nagyon szeretek wakeboardozni,
-              minden nyáron, amikor tehetem, elmegyek űzni ezt a sportot több
-              kevesebb sikerrel.
+              A weboldalak készitése és fejlesztése  az egyik kedvenc időtöltésem.
+              Szeretek alkotni ls felfedezni benne új dolgokat, például megtanulni ezen
+              szakma fortélyait és olyan oldalakat csinálni, melyek megállják helyüket.
             </p>
             <p>
-              Biciklizni is szoktam, nagyobb távokat megteszek a városban, akár
-              60km-t is. Nem riadok vissza a futástól sem és edzőterembe is
-              rendszeresen járok, ilyenkor mindig kitisztul a fejem és lélekben
-              is feltöltődöm.
+              
             </p>
           </div>
         </div>

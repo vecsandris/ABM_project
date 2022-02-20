@@ -26,6 +26,19 @@ img{
     font-size: 50px;
     text-align: center;
 }
+#fotozas .kiscim a{
+    color: #f87952;
+    font-size: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+#fotozas h1{
+    transition: 0.5s;
+}
+#fotozas h1:hover{
+    transform: scale(1.2);
+    transition: 0.5s;
+}
 #harmadik{ 
     width: 100%;
 }
