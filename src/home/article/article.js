@@ -54,7 +54,7 @@ export default class Article extends Component {
             <h1 className="kiscim">Hobbik</h1>
             <p>
               A weboldalak készitése és fejlesztése  az egyik kedvenc időtöltésem.
-              Szeretek alkotni ls felfedezni benne új dolgokat, például megtanulni ezen
+              Szeretek alkotni és felfedezni benne új dolgokat, például megtanulni ezen
               szakma fortélyait és olyan oldalakat csinálni, melyek megállják helyüket.
             </p>
             <p>
