@@ -40,7 +40,6 @@ export default class Article extends Component {
               türelmes és segitőkész vagyok, amit szorgalmam fűszerez meg.
               Jó a szervezőképességem és képes vagyok átlátni a nagyobb rendszereket,
               azoknak működését.
-
             </p>
           </div>
           <div className="column">
@@ -59,7 +58,9 @@ export default class Article extends Component {
               szakma fortélyait és olyan oldalakat csinálni, melyek megállják helyüket.
             </p>
             <p>
-              
+              Szeretek sportolni, mozogni, enélkül nem is birnék élni. A focitól az extrémig,
+              a legtöbb sportban szivesen részt veszek. Ilyen a siklóernyőzés, kosarazás, ping-pong,
+              röplabda és még sorolhatnám.
             </p>
           </div>
         </div>
@@ -67,18 +68,15 @@ export default class Article extends Component {
           <div className="column">
             <h1 className="kiscim"><a href = "https://instagram.com/vecsernyes.andras">Instagram!</a></h1>
             <p>
-              A fotózás is az életem része, bár ennek sok időt nem szánok,
-              illetve ironikusan hangozhat, de a képeim telefonnal vannak
-              készitve. Minden jobb fotóm igy készült vagy a barátaim lőtték a
-              saját kamerájukkal rólam. Ennek ellenére fontosnak tartom, hisz
-              egy weboldal design-hoz szükség van sok nagyon jó minőségű képre.
+              A fotózás is az életem része, bármi megihlet,
+              igyekszem a legjobb formájában megörökiteni.
+              Büszke is vagyok magamra, mert a legjobb fotóim
+              telefonnal készültek. 
             </p>
             <p>
-              A szabadidős programok,városjárás vagy akár történelmi helyszinek
-              látogatása is nagyon vonz, ezt szivesen teszem a barátaimmal. Az
-              adrenalin és az extrémebb dolgok is magukhoz kötöttek. Voltam már
-              siklóernyőzni, lőttek már ki óriás csúzlival és rengeteg tervem
-              van még, mit meg fogok valósitani.
+              A társasjátékok sem maradhatnak ki, hiszen a sakkal
+              még fejlődhetek is. Persze inkább a kártyajátékok felé
+              hajlok, mint a poker.
             </p>
           </div>
           <div className="column">
@@ -93,22 +91,14 @@ export default class Article extends Component {
             <h1 className="kiscim">Tanulmányaim</h1>
             <p>
               Tanulmányaim az Ady Endre általános iskolában kezdtem, de számomra
-              az izgalmas része csak a szakgimnáziumban jött, amikor
-              elkezdhettem a műszaki informatikus szakmámat tanulni. Ez időszak
-              alatt én megpróbálkoztam a robotikával, aminek keretében lego
-              robotokat kellett programozni bizonyos feladatok ellátására. Még
-              Olaszországban is voltam kint az Erasmus cserediák programban egy
-              hétig, de nem fogott meg ez a terület.
+              az izgalmas része csak a Szily Kálmán szakgimnáziumába jött. Itt
+              megismerkedtem az informatikával, de főleg a webfejlesztéssel. 
             </p>
             <p>
-              Érettségim és szakmám a Szily Kálmán Műszaki Szakgimnáziumában
-              szereztem meg egy négy éves képzés keretein belül. Ekkor kaptam
-              egy rendszerüzemeltető képesitést, melyre megalapozva mentem
-              tovább az OKJ-s 2 éves képzésre. Itt már szoftverfejlesztőként
-              tanultam, de emellett otthon folyamatosan fejlesztettem magam,
-              mert nagyon izgalmasnak tartottam a webfejlesztést. Tudásra éhesen
-              néha többet foglalkoztam az önfejlesztéssel, mint az iskolai
-              tananyaggal.
+              Elvégeztem a szakgimnáziumot és az érettségit majd folytattam a
+              felnőttképzésen, mint szoftverfejlesztő. Itt már többet tudtam
+              foglalkozni azzal, ami számomra fontos volt, a weboldalakkal
+              és a céljaimmal.
             </p>
           </div>
         </div>
@@ -116,20 +106,14 @@ export default class Article extends Component {
           <div className="column">
             <h1 className="kiscim">Munkásságom</h1>
             <p>
-              Amit itt most látnak oldal, az első olyan munkámnak mondhatom,
-              melyre büszke vagyok.Azzal a céllal épitettem fel, hogy
-              megmutassam magamnak mire vagyok képes. Siker élményem ez tetőzte
-              meg.Munkásságomhoz sorolhatom hogy részt vettem családi napon,
-              melyen a nyolc osztályt végzett tanulókat kellett az informatikus
-              pályára csábitani. Választhattam, hogy mivel teszem meg ezt, nagy
-              meglepetésre a webfejlesztéssel.
+              Ez az oldal az első olyan munkám, ami ki is került mindenki elé.
+              Streameléshez is készitettem weboldalt(legutolsó kép), amit szerencsére
+              nem tettem ki.
             </p>
             <p>
-              Egy középiskolai barátom tanitott rengeteget. Megmutatta az új és
-              okosabb megoldásokat, mellyel el tudtam indulni egy olyan úton,
-              ami sikerre vezet. A következő kép, amit a bekezdés alatt látni,
-              az első, használhatónak mondható weboldalam, melyet szerencsére
-              nem tettem közzé.
+              Családi napokon is tartottam kiselőadást a webfejlesztésről a középiskolába
+              jelenkezőknek, illetve robotikával is foglalkoztam egy erasmus programon belül
+              Olaszországban, de ez a terület nem fogott meg.
             </p>
             <div id="column">
               <img id="negyedik" alt="elsooldalam" src={thingz}></img>
