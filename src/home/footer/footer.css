@@ -4,6 +4,7 @@ body{
 #contact {
     background-color: #212529;
     height: 100px;
+    width: 100%;
   }
   #contact nav ul {
     list-style: none;
